@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  padding: 20px;
+}
+
+section {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 70%;
+  height: auto;
+}
+
+.main-wrap {
+  display: flex;
+  gap: 6%;
+}
+
+.refresh-recent-wrap {
+  display: flex;
+  column-gap: 10%;
+  width: 100%;
+}
+
+.scores-list-wrap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.scores-list {
+  border: 1px black solid;
+  border-radius: 8px;
+}
+
+.input {
+  width: 260px;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(145, 144, 144);
+}
+
+h2 {
+  width: 200px;
+}
+
+.submit {
+  float: right;
+}

@@ -1,0 +1,44 @@
+/* === Roboto - regular */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url("./font/Roboto-Regular.eot");
+	src: local('Roboto'),
+		url("./font/Roboto-Regular.eot") format("embedded-opentype"),
+		url("./font/Roboto-Regular.woff2") format("woff2"),
+		url("./font/Roboto-Regular.woff") format("woff"),
+		url("./font/Roboto-Regular.ttf") format("truetype"),
+		url("./font/Roboto-Regular.svg") format("svg");
+}
+
+/* === Roboto - 700italic */
+@font-face {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 700;
+	font-display: block;
+	src: url("./font/Roboto-BoldItalic.eot");
+	src: local('Roboto'),
+		url("./font/Roboto-BoldItalic.eot") format("embedded-opentype"),
+		url("./font/Roboto-BoldItalic.woff2") format("woff2"),
+		url("./font/Roboto-BoldItalic.woff") format("woff"),
+		url("./font/Roboto-BoldItalic.ttf") format("truetype"),
+		url("./font/Roboto-BoldItalic.svg") format("svg");
+}
+
+/* === Source Sans Pro - regular */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("./font/SourceSansPro-Regular.eot");
+	src: local('Source Sans Pro'),
+		url("./font/SourceSansPro-Regular.eot") format("embedded-opentype"),
+		url("./font/SourceSansPro-Regular.woff2") format("woff2"),
+		url("./font/SourceSansPro-Regular.woff") format("woff"),
+		url("./font/SourceSansPro-Regular.ttf") format("truetype"),
+		url("./font/SourceSansPro-Regular.svg") format("svg");
+}
