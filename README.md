@@ -4,7 +4,7 @@
  JavaScript project for building the Leaderboard list app that accepts and shows Name and Score of players.  using  The <a href="https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">Leaderboard API </a>. 
 
 
- ![LearderBoard design (20)](https://github.com/sentayhu19/Leaderboard/blob/add-and-remove/src/assets/images/Screenshot.png)
+ ![LearderBoard design (20)](https://raw.githubusercontent.com/sentayhu19/Leaderboard/feature/src/assets/images/Screenshot%20of%20Leaderboard%20UI.png)
 
 ## Live demo
 
