@@ -1,7 +1,7 @@
  ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard
- JavaScript project for the Leaderboard list app, using webpack and ES6 features
+ JavaScript project for building the Leaderboard list app that accepts and shows Name and Score of players.  using  The <a href="https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">Leaderboard API </a>. 
 
 
 <!-- ![LearderBoard design (20)]() -->
