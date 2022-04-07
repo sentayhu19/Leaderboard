@@ -1,16 +1,20 @@
 /* eslint-disable import/no-cycle */
-import { addgame, getgame } from './addAndget';
 
 const axios = require('axios');
 
 const BaseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 
-export class create {
+export class Create {
   constructor(gameid) {
-    this.GameId = 'IO073SYL31FfORar8WmR';
+    if (gameid === undefined) {
+      this.GameId = 'IO073SYL31FfORar8WmR';
+    } else {
+      this.GameId = gameid;
+      console.log("not null");
+    }
   }
 
- createNewGame = async (data) => {
+ createNewGame = async () => {
    axios({
      method: 'POST',
      url: BaseUrl,
@@ -23,8 +27,7 @@ export class create {
        clean = clean.replace('{"result":"Game with ID:', '');
        clean = clean.replace('added."}', '');
        this.GameId = clean.trim();
-     })
-     .catch((err) => console.log('Error : ', err));
+     });
  }
 }
 export { BaseUrl };

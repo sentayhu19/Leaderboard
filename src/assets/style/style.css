@@ -62,3 +62,12 @@ h2 {
 .submit {
   float: right;
 }
+
+li{
+  display: flex;
+  column-gap: 10%;
+}
+
+.username{
+width: 147px;
+}

@@ -3,12 +3,12 @@ import { incommigData } from './addAndget';
 
 const showList = document.getElementById('show-list');
 
-export const render = () => {
+const render = () => {
   let renderlist;
   incommigData.forEach((data) => {
     data.forEach((e) => {
       if (e.user != null && e.score != null) {
-        renderlist += `<li>${e.user}   :   ${e.score}  </li>`;
+        renderlist += `<li><span class="username">${e.user} : </span><span>${e.score}</span>  </li>`;
       }
     });
   });
@@ -20,3 +20,4 @@ export const render = () => {
     showList.innerHTML = renderlist;
   }
 };
+export default render;
