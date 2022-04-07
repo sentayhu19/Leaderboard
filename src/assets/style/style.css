@@ -8,11 +8,12 @@
 body {
   font-family: 'Permanent Marker', cursive;
   padding: 20px;
+  background-color: rgb(45, 43, 43);
 }
 
 section {
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 6%;
   width: 70%;
   height: auto;
 }
@@ -20,11 +21,13 @@ section {
 .main-wrap {
   display: flex;
   gap: 6%;
+  justify-content: center;
+  width: 100%;
 }
 
 .refresh-recent-wrap {
   display: flex;
-  column-gap: 50%;
+  justify-content: space-between;
   width: 100%;
   margin-bottom: 13px;
 }
@@ -33,6 +36,7 @@ section {
   display: flex;
   flex-direction: column;
   row-gap: 10%;
+  background-color: burlywood;
 }
 
 ul {
@@ -48,7 +52,8 @@ ul {
 }
 
 .input {
-  width: 260px;
+  width: 360px;
+  border-radius: 8px;
 }
 
 li {
@@ -64,10 +69,56 @@ h2 {
   width: 200px;
 }
 
-.submit {
-  float: right;
-}
-
 .username {
   width: 147px;
+}
+
+header {
+  position: fixed;
+  background-color: green;
+  border-radius: 8px;
+  width: 100%;
+  top: 0;
+}
+
+button {
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+button:active {
+  transform: scale(0.7);
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+.submit {
+  width: 100px;
+  float: right;
+  margin-right: 17%;
+}
+
+.add-score {
+  background-color: burlywood;
+  height: 25vh;
+  box-shadow: 4px 4px 4px 4px white;
+  width: 600px;
+}
+
+#refresh {
+  width: 147px;
+  height: 33px;
+  margin-top: 12px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+form {
+  margin-left: 90px;
 }
