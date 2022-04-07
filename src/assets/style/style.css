@@ -51,6 +51,11 @@ ul {
   width: 260px;
 }
 
+li {
+  display: flex;
+  column-gap: 10%;
+}
+
 li:nth-child(odd) {
   background-color: rgb(145, 144, 144);
 }
@@ -63,11 +68,6 @@ h2 {
   float: right;
 }
 
-li{
-  display: flex;
-  column-gap: 10%;
-}
-
-.username{
-width: 147px;
+.username {
+  width: 147px;
 }
