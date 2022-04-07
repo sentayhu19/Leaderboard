@@ -19,6 +19,7 @@
     "ignorePatterns": [
       "dist/",
       "build/",
-      "modules/luxon.js"
+      "dist/fonts.css",
+      "src/assests/style/font.css"
     ]
   }
