@@ -10,7 +10,6 @@ export class Create {
       this.GameId = 'IO073SYL31FfORar8WmR';
     } else {
       this.GameId = gameid;
-      console.log("not null");
     }
   }
 
