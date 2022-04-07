@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -23,8 +24,9 @@ section {
 
 .refresh-recent-wrap {
   display: flex;
-  column-gap: 10%;
+  column-gap: 50%;
   width: 100%;
+  margin-bottom: 13px;
 }
 
 .scores-list-wrap {
@@ -35,15 +37,23 @@ section {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .scores-list {
   border: 1px black solid;
   border-radius: 8px;
+  width: 450px;
 }
 
 .input {
   width: 260px;
+}
+
+li {
+  display: flex;
+  column-gap: 10%;
 }
 
 li:nth-child(odd) {
@@ -56,4 +66,8 @@ h2 {
 
 .submit {
   float: right;
+}
+
+.username {
+  width: 147px;
 }

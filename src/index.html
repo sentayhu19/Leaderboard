@@ -15,21 +15,17 @@
         <div class="scores-list-wrap">
         <div class="refresh-recent-wrap">
             <h2>Recent Scores</h2>
-            <button type="submit">Refresh</button>
+            <button type="submit" id="refresh">Refresh</button>
         </div>
-        <ul class="scores-list">
-        
-        <li>abebe 200</li>
-        <li>kebde 300</li>
-        <li>james 500</li>
-    </ul>
+        <ul class="scores-list" id="show-list">
+        </ul>
         </div>
    
         <div class="add-score">
             <h2>Add Your Score</h2>
-            <form>
-                <input type="text" placeholder="Your name" required class="input"><br><br>
-                <input type="text" placeholder="Your Score" required class="input"><br><br>
+            <form id="form">
+                <input type="text" placeholder="Your name" required class="input" id="name"><br><br>
+                <input type="number" placeholder="Your Score" required class="input" id="score"><br><br>
                 <button type="submit" class="submit">Submit</button>
             </form>
 
